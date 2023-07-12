@@ -126,7 +126,7 @@ app.post("/failure", function(req,res){
     res.redirect("/");
 });
 
-const workingPort = process.env.PORT || 3000
-app.listen(workingPort, function () {
-  console.log("Server is running on port "+workingPort);
+
+app.listen(process.env.PORT || 3000, function () {
+  console.log("Server is running on port ");
 });
