@@ -100,7 +100,7 @@ app.post("/", function (req, res) {
   };
   const jsonData = JSON.stringify(data);
 
-  const url = https://us21.api.mailchimp.com/3.0/lists/cdf2fd6f6a;
+  const url = 'https://us21.api.mailchimp.com/3.0/lists/cdf2fd6f6a';
   //const url ="cdf2fd6f6a";
   const options = {
     method: "POST",
